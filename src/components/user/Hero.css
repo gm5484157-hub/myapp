@@ -1,4 +1,11 @@
 /* ── Hero Section ── */
+
+
+.joppppp{
+  height: 700px;
+ 
+  background:#fdf8f5;
+}
 .hero {
  width: 100%;
   
@@ -8,7 +15,7 @@
   justify-content: space-between;
   gap: 48px;
   background: var(--gradient-linear);
-  border-radius: 0 0 24px 24px;
+ 
   position: relative;
   overflow: hidden;
 }
@@ -251,6 +258,7 @@
   width: 48px;
   height: 48px;
   background: linear-gradient(135deg, var(--color-charcoal-400), #8b3a52);
+  color: aliceblue;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -264,7 +272,7 @@
   font-size: var(--text-20);
   font-weight: 600;
   line-height: 1.4;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0;
 }
 
@@ -292,8 +300,10 @@
 .filter-bottom {
   display: flex;
   align-items: center;
+  background: var(--gradient-linear);
   height: 70px;
-  width: 100%;
+  width: 94%;
+  margin-left: 40px;
   background-color: var(--color-white);
   border-radius: 14px;
   box-shadow: 0 8px 32px rgba(98, 39, 59, 0.1);
@@ -348,13 +358,12 @@
   font-family: var(--font-ui-sans-serif);
   font-size: var(--text-14);
   font-weight: 600;
-  color: var(--color-charcoal-400);
-  background-color: var(--color-pastel-orange);
+  background-color: #8b3a52 !important;
+  color: aliceblue;
   border: none;
   cursor: pointer;
   flex-shrink: 0;
   letter-spacing: 0.02em;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -365,7 +374,7 @@
 
 /* Hover */
 .search-btn:hover {
-  background-color: #c9a52e;
+  background-color: #ff0040;
   box-shadow: 0 4px 16px rgba(212, 175, 55, 0.4);
 }
 

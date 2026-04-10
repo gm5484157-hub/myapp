@@ -4,7 +4,8 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
-      <div className="hero">
+    <div className="joppppp">
+  <div className="hero">
         {/* LEFT */}
         <div className="hero-left">
           <p className="hero-badge">Trusted Matrimony Platform</p>
@@ -83,6 +84,7 @@ const Hero = () => {
   
   <button className="search-btn">Search</button>
 </div>
+    </div>
     </>
   );
 };
